@@ -1,0 +1,28 @@
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+.img_padding {
+    padding-bottom: 500px;
+}
+table,th,td {
+    border: 1px solid black;
+}
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+th {
+    color: antiquewhite;
+    background-color: #2d4923;
+}
+table tbody tr td span {
+    font-weight: bold;
+    font-style: italic;
+}
