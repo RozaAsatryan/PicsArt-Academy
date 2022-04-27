@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+body {
+    font-family: 'PT Serif', serif;
+    background-color: #f5f5f0;
+
+}
+h1, h2 {
+    margin: 0 auto;
+    text-align: center;
+    color: darkred;
+}
+
+.composition {
+    margin: 10px;
+    border: 1px inset ;
+    height: auto;
+}
+.composition p, ol {
+    font-size: 18px;
+}
+
+
+.shtamp_with_surguch {
+    display: block;
+    margin: 0 10px 30px 20px;
+    width: 400px;
+    max-width: 400px;
+    height: auto;
+    max-height: 600px;
+}
+.second_surguch {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    width: 300px;
+    min-width: 290px;
+    height: 400px;
+    min-height: 420px;
+}
+.handmade { 
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    border-top: 1px outset;  
+    border-right: 2px outset; 
+    border-bottom: 1px outset; 
+    border-left: 2px outset; 
+}
+.recipe {
+    display: inline;
+}
+.recipe ol li span {
+    display: block;
+    font-weight: bold;
+}
