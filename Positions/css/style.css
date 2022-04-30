@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background: rgb(242,240,255);
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.box {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Header Start */
+.header_wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+header {
+    /* position: sticky;
+    top: 0; */
+    height: 100px;
+    background-color: rgb(242,240,255);
+}
+header img {
+    width: 120px;
+    height: 100px;
+    padding-left: 20px;
+}
+header nav {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 30px;
+    color: rgb(30, 4, 71);
+}
+
+header nav a:hover {
+    color: #9caeb8;
+}
+
+/*Header End */
+
+/* Section First Start */
+.first_screen {
+    background-image: url("../img/Car-Logo-Designs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    text-shadow:
+    0 0 21px #fff,
+    0 0 42px rgb(0, 21, 255),
+    0 0 82px rgb(0, 21, 255),
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+
+}
+.first_screen h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+/* Section First End */
+
+/* ABout section Start */
+.about {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.about_us {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    display: inline;
+}
+.about_us h2, .use_text h2 {
+    font-size: 40px;
+    color: rgba(0, 21, 255, 0.678);
+}
+.about_us p, .use_text p {
+    font-size: 20px;
+    text-align: justify;
+}
+.wrapper {
+    position: absolute;
+    right: 0;
+    display: inline;
+    width: 50%;
+    background-image: url("https://cdn2.rcstatic.com/images/site_graphics/newsite/about-us-graphic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+.wrapper_child  {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 0;
+    height: 250px;
+    width: 70%;
+    background-color: #9caeb893;
+}
+.wrapper_element ul{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+    0 0 21px #fff,
+    0 0 42px rgb(0, 21, 255),
+    0 0 82px rgb(0, 21, 255),
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    vertical-align: middle;
+    font-size: 20px;
+    list-style-type: none;
+}
+/* About section end */
+
+/* Why use us Start */
+.why_use {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.use_img {
+    width: 50%;
+    height: 400px;
+    background-color: #9caeb8;
+}
+.use_img img {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    height: 300px
+}
+.use_img h2 {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: #9caeb880;
+    width: 300px;
+    height: 100px;
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow:
+    0 0 21px #fff,
+    0 0 42px rgb(0, 21, 255),
+    0 0 82px rgb(0, 21, 255),
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+.use_text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    display: inline;
+}
+/* Why use us End */
+
+/* Best choice Start */
+.best_choice {
+    position: relative;
+    background: linear-gradient(180deg, rgba(242,240,255,1) 29%, rgba(156,174,184,1) 100%);
+    height: 500px;
+    width: 100%;
+}
+.best_img_1 img, .best_img_2 img {
+    width: 500px;
+    height: 300px;
+    padding: 100px 20px 0 20px;
+}
+.best_text p {
+    box-sizing: border-box;
+    padding: 25px;
+    position: absolute;
+    border: 1px solid rgb(0, 21, 255);
+    background-color:rgba(242,240,255,1);
+    width: 400px;
+    height: 150px;
+    top: 40px;
+    right: 600px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 21, 255);
+    text-shadow:
+    0 0 21px #fff, 0 0 42px rgb(0 21 255 / 0%), 0 0 82px rgb(0 21 255 / 0%), 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+/* Best choice End */
+/* Contact us Start  */
+.contact_us {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid rgb(0, 21, 255);
+    max-width: 500px;
+    box-sizing: border-box;
+}
+.contact_us h3 {
+    letter-spacing: 4px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(125 135 247);
+    text-shadow:
+    0 0 21px #fff,
+    0 0 82px rgb(0, 21, 255),
+    0 0 92px #0fa,
+    0 0 102px #0fa;
+}
+.contact_us p {
+    font-size: 15px;
+    color: #626262;
+    margin-bottom: 25px;
+
+}
+
+.first_name, .last_name{
+    display: inline-block;
+    width: 45%;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(44 52 141 / 60%);
+}
+
+.first_name {
+    margin-right: 22px;
+}
+
+.first_name input, .last_name input {
+    width: 100%;
+    height: 20px;
+}
+.email , .message  {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(44 52 141 / 60%);
+}
+
+.email input {
+    width: 96%;
+    height: 20px;
+}
+.message textarea {
+    width: 96%;
+    max-width: 440px;
+    min-width: 440px;
+    height: 100px;
+}
+input:hover  {
+    border: 2px solid rgb(44 52 141 / 60%);
+}
+input:focus {
+    outline: none;
+    border: 2px solid #0fa;
+}
+textarea:hover {
+    border: 1px solid rgb(44 52 141 / 60%);
+}
+
+textarea:focus {
+    outline: none;
+    border: 1px solid #0fa;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    color: #fff;
+    background-color: rgb(44 52 141 / 60%);
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+  animation: pulse 1s infinite;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* @keyframes button {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+} */
+/* Contsact us End */
