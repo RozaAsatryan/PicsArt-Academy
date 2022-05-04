@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #3f3440;
+    text-align: center;
+}
+.box {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.mine {
+    text-align: center;
+    font-size: 30px;
+}
+/* Header start */
+header {
+    position: relative;
+    height: 90px;
+    background-color: #3f3440;
+}
+header img {
+    float: left;
+    display: inline;
+    height: 110px;
+}
+header nav{
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    right: 60px;
+    top: 30px;
+}
+header nav:nth-child(2) {
+    font-size: 25px;
+    color: #2d92b6;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+header nav a:nth-child(1) {
+    padding-right: 50px;
+}
+header nav a:nth-child(even) {
+    padding-right: 50px;
+}
+
+/* Header End  */
+.descr *:nth-child(n+1) {
+    text-align: center;
+
+}
+.descr *:nth-of-type(1) {
+    font-size: 15px;
+
+}
+.descr p:nth-child(2n){
+    font-size: 20px;
+}
+
+/* starry start */
+
+section.starry {
+    background-image: url("https://wallpaperaccess.com/full/2997.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+    height: 200px;
+    width: 100%;
+}
+section.starry h1 {
+    text-align: inherit;
+    margin: 0;
+    padding-top: 80px;
+    color: #fdf6ea;
+    text-shadow: 1px 2px black;
+    font-size: 50px;
+}
+
+/* starry end */
+
+/* carton start  */
+
+
+.carton:nth-child(n) , .canvas:nth-child(n+1) {
+    color: #2d92b6;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.carton_picture {
+    margin-top: inherit;
+}
+.carton h2, .canvas h2 {
+    text-shadow: 3px 3px 20px #2d92b6,
+                -2px 1px 30px #2d92b6;
+}
+
+
+.carton img:nth-of-type(-n+3), .canvas img:nth-child(-n+3){
+    height: 300px;
+    width: 300px;
+    outline: 1px solid rgb(161, 153, 153);
+    box-shadow: 4px 3px rgb(219 187 187);
+}
+
+.carton_picture:nth-child(n+1), .canvas_picture:nth-child(n+1) {
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.canvas {
+    margin-top: 80px;
+    border: 1px solid #3f3440;
+}
+.canvas_pictures {
+    border: inherit;
+}
+/* carton and carton end */
+
+/* footer start */
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3f3440;
+    box-shadow: 2px -5px 10px #3f3440;
+
+}
+
+footer img:first-child {
+    height: 190px;
+    width: 190px;
+}
+footer .hidden {
+    width: 50px;
+    visibility: hidden;
+}
+footer li a{
+    text-decoration: none;
+    
+}
+
+footer div ul:last-child {
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+}
+footer ul li:nth-child(odd) {
+    padding-top: 40px;
+}
+footer ul li:last-child {
+    padding-top: 30px;
+}
+footer div li a:visited {
+    color: #2d92b6;
+}
