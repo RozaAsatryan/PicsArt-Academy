@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+.container {
+    box-sizing: border-box;
+    max-width: 800px;
+    width: calc(100% - 100px);
+    margin: 0 auto;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+}
+.descr {
+    background-image: url("../img/background-women.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.descr h1 {
+    color: #fcfcfc;
+    font-size: 40px;
+    margin: 0;
+}
+.kubik {
+    margin: 0 auto;
+    background-color: #bb88474a;
+    width: min(50%, 550px);
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 4%;
+}
+
+h2 a {
+    text-decoration: none;
+    font-size: 35px;
+    color: #a07039;
+}
+.tours {
+    position: relative;
+}
+.tour {
+    position: relative;
+}
+.tour img {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+}
+.tour_2 img{
+    top: 80px;
+    left: 100px;
+}
+.tour_3 img{
+    top: 160px;
+    left: 180px;
+}
+.tour_4 img{
+    top: 240px;
+    left: 260px;
+}
+.tour_5 img{
+    top: 320px;
+    left: 340px;
+}
+.tour_6 img{
+    top: 400px;
+    left: 420px;
+}
+.tour_7 img{
+    top: 480px;
+    left: 500px;
+}
+.tour_7 {
+    z-index: -1;
+}
+
+.about p {
+    margin: 50px auto;
+    width: min(60%, 400px);
+    text-align: center;
+    font-size: 20px;
+    color: #85582b;
+}
+
+/* Top tours */
+.top_header {
+    display: flex;
+    justify-content: space-around;
+}
+.top_header h1 {
+    color: #a07039;
+    font-size: 30px;
+}
+.top_header img {
+    margin-left: 0px;
+    width: calc(100% - 65%)
+}
+.top {
+    background-color: rgba(223, 223, 223, 0.205);
+}
+.tour_name {
+    text-align: center;
+    color: #a07039;
+    font-size: 40px;
+    text-shadow: 4px 4px 50px black;
+    margin-top: 40px;
+}
+.france img, .italy img, .hawaii img {
+    width: min(50%, 800px);
+    height: max(1000px, 60%);
+    display: block;
+    margin: 0 auto;
+}
+
+
