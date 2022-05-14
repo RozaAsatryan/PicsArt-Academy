@@ -1,0 +1,67 @@
+body {
+    margin: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    color: #644656;
+    font-size: 42px;
+}
+h2 {
+    font-size: 40px;
+    color:#fcff3b;
+}
+
+.wd400 p{
+    border: 1px dotted yellow;
+    width: 400px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.wd400 p:hover {
+    border: 1px dotted yellow;
+    width: 400px;
+    overflow: visible;
+    white-space: normal;
+}
+
+.clip {
+    border: 1px dotted yellow;
+    width: 300px;
+    overflow: hidden;
+    white-space: pre;
+    text-overflow: clip;
+}
+
+.clip:hover {
+    white-space: normal;
+    overflow: visible;
+}
+
+.plans h2 {
+    writing-mode: vertical-rl;
+}
+
+.plan {
+    width: 200px;
+    border: 1px dashed yellow;
+}
+.plan p {
+    word-wrap: break-word;
+}
+
+.test {
+    width: 100px;
+    word-break: keep-all;
+    border: 1px solid black;
+}
+
+.break {
+    width: 100px;
+    border: 1px solid orange;
+    word-break: break-all;
+}

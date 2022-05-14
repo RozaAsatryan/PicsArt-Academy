@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+/* an@ndhat ogtagortsvox */
+.wrapper {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.space {
+    display: flex;
+    flex-wrap: wrap;
+}
+.f_heading {
+    padding-top: 20px;
+    text-align: center;
+    color:#fff;
+    font-size: 40px;
+}
+
+
+/* HEADER */
+.img_bc {
+    background-image: linear-gradient(90deg, #644656 45%, #705664 50%);
+}
+header img {
+    display: block;
+    margin: 0 auto;
+    filter: hue-rotate(10deg);
+}
+
+nav {
+    text-align: center;
+    margin: 20px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #dfd733;
+    padding-right: 30px;
+}
+
+.just_photo {
+    height: 400px;
+    background-image: url("../img/woman-hand-is-putting-greeting-card-into-envelope.jpg");
+    filter: blur(2px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+/* HEADER END */
+
+h1 {
+    text-align: center;
+    color: #644656;
+}
+.paper {
+    background-image: radial-gradient(ellipse, #81787e, #ad849e, #d9a1c4 );
+}
+.paper img, .cards img {
+    width: 300px;
+    height: 300px;
+}
+figure figcaption {
+    background: repeating-conic-gradient(#fff, #ddea32 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.paper_1 {
+    filter: grayscale(60%);
+    cursor: pointer;
+}
+.paper_1:hover  {
+    filter: saturate(100%);
+} 
+
+.paper_2 {
+    filter: contrast(50%);
+}
+.paper_2:hover {
+    filter: invert(20%);
+}
+.paper_3 {
+    filter: opacity(0.2);
+}
+.paper_3:hover {
+    filter: saturate(5);
+}
+.paper_4, .paper_5, .paper_6 {
+    filter: blur(3px);
+    cursor: pointer;
+}
+.paper_4:hover, .paper_5:hover, .paper_6:hover {
+    filter: brightness(90%);
+}
+
+
+
+.cards {
+    background-image: radial-gradient(closest-side,#a05d95, #d9a1c4 )
+}
+.card_1 {
+    filter: contrast(20%);
+    cursor: pointer;
+}
+.card_1:hover {
+    filter: saturate(5);
+}
+.card_2 {
+    filter: opacity(0.4);
+    cursor: pointer;
+}
+.card_2:hover {
+    filter: sepia(60%);
+}
+.card_3 {
+    filter: invert(20%);
+    cursor: pointer;
+}
+.card_3:hover {
+    filter: drop-shadow(3px 1px 10px #fff);
+}
+
+.card_4 {
+    filter: grayscale(60%);
+    cursor: pointer;
+}
+.card_4:hover {
+    filter: sepia(40%);
+}
+
+.card_5 {
+    filter: hue-rotate(90deg);
+    cursor: pointer;
+}
+.card_5:hover {
+    filter: brightness(90%);
+}
+
+.card_6 {
+    filter: drop-shadow(3px 1px 10px #fff);
+}
+.card_6:hover {
+    filter: drop-shadow(3px 1px 10px rgb(252, 239, 63));
+}
