@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.museum_names{
+    margin-top: 60px;
+    color: #666666;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px #d5c00b;
+    font-size: 30px;
+}
+.about_headers {
+    color: #d5c00b;
+    font-size: 30px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-image: url('data:image/jpeg;base64,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');
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(29, 29, 29, 0.678);
+}
+header img {
+    width: 100px;
+    height: 70px;
+}
+header h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    color: #d5c00b;
+}
+
+/* yerevan museum start */
+
+.yerevan_about {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    height: 450px;
+}
+.yerevan_about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+}
+.yerevan_about_images {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.yerevan_about_images img {
+    width: 250px;
+    height: 440px;
+}
+.yerevan_about_images img:hover {
+    animation: zoom 2s ease-in-out;
+}
+
+
+@keyframes zoom {
+    0% {
+        width: 250px;
+        height: 440px;
+    }
+    50% {
+        width: 300px;
+        height: 500px;
+    }
+    100% {
+        width: 250px;
+        height: 440px;
+    }
+}
+
+
+.yerevan_photos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: #d5c00b;
+}
+.yerevan_photos img{
+    width: 400px;
+}
+.yerevan_photos img:nth-child(2) {
+    order: -1;
+}
+
+.yerevan_photos img:nth-child(1) {
+    order: 3;
+}
+
+/* yerevan museum end */
+
+/* moscow museum start */
+.moscow h2 {
+    text-align: end;
+}
+
+.moscow_about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: end;
+    
+}
+.moscow_about img {
+    width: 60%;
+}
+.moscow_photos {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    background-color: #d5c00b;
+    justify-content: center;
+}
+.moscow_photos img {
+    width: 300px;
+    height: 300px;
+}
+
+/* moscow museum end */
+
+/* dubai start */
+
+.dubai h2 {
+    text-align: center;
+}
+.dubai_about {
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+.dubai_about img {
+    width: 100%;
+}
+.dubai_photos {
+    display: flex;
+    flex-flow: column wrap-reverse;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 800px;
+    width: 100%;
+    max-width: 1500px;
+    background-color: #d5c00b;
+}
+.dubai_photos img {
+    width: 600px;
+    height: 300px;
+}
+
+.dubai_photos img:nth-child(3) {
+    order: 1;
+    height: 400px;
+}
+.dubai_photos img:nth-child(2) {
+    order: 2;
+}
+
+/* dubai end */
+
+/* new york start */
+
+.new_york_about {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 1500px;
+}
+.new_york_about p {
+    align-self: center;
+    text-shadow: 2px 2px 10px #1a237e;
+    width: 50%;
+}
+.new_york_photos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+
+}
+.new_york_photos img {
+    width: 600px;
+}
+/* new york end */
