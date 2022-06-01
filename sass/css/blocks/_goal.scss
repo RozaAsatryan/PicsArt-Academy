@@ -1,0 +1,11 @@
+.goal {
+    margin: 40px;
+    display: flex;
+    img {
+        height: 400px;
+    }
+    h2 {
+        @include fz;
+        color: $purple;
+    }
+}

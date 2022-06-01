@@ -1,0 +1,12 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    position: fixed;
+    a {
+        height: 64px;
+        &:hover {
+            filter: grayscale(60%);
+        }
+    }
+}

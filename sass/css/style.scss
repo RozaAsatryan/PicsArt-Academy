@@ -1,0 +1,13 @@
+$main-bg: #F3EFE0;
+$purple: #AA7DCE;
+$text-color: #68534D;
+
+@mixin fz {
+    font-size: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@0;1&display=swap');
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/social';
+@import 'blocks/goal';

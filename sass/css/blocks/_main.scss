@@ -1,0 +1,15 @@
+main {
+    margin-top: 40px;
+    .wrapper {
+        margin: 0 auto;
+        max-width: 1000px;
+        h1 {
+            color: $purple;
+            @include fz;
+        }
+        p {
+            color: $text-color;
+            font-size: 18px;
+        }
+    }
+}
