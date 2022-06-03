@@ -1,8 +1,9 @@
 .social {
     display: flex;
     flex-direction: column;
-    top: 20%;
-    position: fixed;
+    position: sticky;
+    top: 5%;
+    height: 320px;
     a {
         height: 64px;
         &:hover {
