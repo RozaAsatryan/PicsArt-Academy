@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2.2rem;
+  &__logo-box {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    min-width: 23rem;
+  }
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    &--main {
+      font-weight: 500;
+      font-size: 2.3rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    &--sub {
+      font-style: italic;
+      font-weight: 400;
+      font-size: 1.5rem;
+      text-transform: none;
+    }
+    @media screen and(max-width: 1100px) {
+      &--main {
+        font-size: 1.7rem;
+      }
+      &--sub {
+        font-size: 1.2rem;
+      }
+    }
+    @media screen and (max-width: 744px) {
+      .header__menu {
+          opacity: 0;
+      }
+      .header__hamburger-menu {
+          display: block;
+      }
+      .header__logo {
+          &--main {
+              font-size: 1.5rem;
+          }
+          &--sub {
+              font-size: 1.2rem;
+          }
+      }
+  
+  }
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 796px;
+    @media screen and(max-width: 1100px) {
+      opacity: 0;
+    }
+    &-item {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.4rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #414840;
+      text-decoration: none;
+      &:hover,
+      &:active {
+        color: #475f45;
+      }
+    }
+  }
+}

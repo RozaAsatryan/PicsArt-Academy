@@ -1,0 +1,53 @@
+.btn {
+  &--black {
+    &,
+    &:link,
+    &:visited {
+      display: flex;
+      align-items: center;
+      padding: 15px 30px;
+      border: 2px solid #475f45;
+    }
+  }
+  &__buy {
+    display: block;
+    width: 188px;
+    height: 56px;
+    padding: 20px 40px;
+    background: #475f45;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__learn {
+    @extend .btn__buy;
+    color: #475f45;
+    border: 2px solid #475f45;
+    background: none;
+    &--white {
+      border: 2px solid #ffffff;
+      color: #fff;
+    }
+  }
+}
+
+.header__hamburger-menu {
+  cursor: pointer;
+  display: none;
+  @include respond(tablet) {
+    display: block;
+    align-self: center;
+    transition: all 0.3s;
+  }
+  .hamburger-line {
+    width: 2.4rem;
+    height: 0.2rem;
+    background-color: #343d33;
+    margin-bottom: 0.6rem;
+  }
+}

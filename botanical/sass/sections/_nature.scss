@@ -1,0 +1,53 @@
+.nature {
+  padding: 9.6rem 18rem;
+  width: 100%;
+  background-color: #343d33;
+  background-image: url("../../img/Frame.svg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 1100px) {
+    gap: 40px;
+    width: 100%;
+  }
+  @media screen and (max-width: 744px) {
+    justify-content: center;
+  }
+  &__heading {
+    display: flex;
+    gap: 8rem;
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__text {
+      .text__header {
+        font-family: "Libre Baskerville";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.2rem;
+        color: #fff;
+        text-transform: capitalize;
+        @media screen and (max-width: 740px) {
+          text-align: center;
+        }
+      }
+      .text__descr {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #ffffff;
+        margin: 3.2rem 0;
+      }
+    }
+    &__img2 img{
+      @media screen and (max-width: 1200px) {
+        display: flex;
+        align-self: center;
+        width: 534px;
+        height: 211px;
+      }
+    }
+  }
+}

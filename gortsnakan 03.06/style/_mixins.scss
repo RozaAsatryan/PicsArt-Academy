@@ -1,7 +1,6 @@
 @mixin flexCenter($justify: true) {
     display: flex;
     align-items: center;
-
     @if $justify {
         justify-content: center;
     }

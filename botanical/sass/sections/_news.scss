@@ -1,0 +1,79 @@
+.news {
+  margin: 96px auto;
+
+  &__heading {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    color: #343d33;
+  }
+  &__descr {
+    display: flex;
+    align-items: center;
+    margin-top: 2.7rem;
+    .line {
+      margin-right: 2rem;
+    }
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      color: #475f45;
+    }
+  }
+  &__post {
+    margin-top: 4.8rem;
+    display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(3, auto);
+      gap: 4.9rem;
+      @media screen and (max-width: 1100px) {
+        display: flex;
+        flex-direction: column;
+      }
+      @media screen and (max-width: 744px) {
+        justify-content: center;
+        align-items: center;
+      }
+    .post-item {
+      &__header {
+        font-family: "Libre Baskerville";
+        font-weight: 400;
+        font-size: 2.3rem;
+        color: #475f45;
+      }
+      &__descr {
+        margin-top: 1.2rem;
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: #414840;
+      }
+      &__data {
+        margin-top: 1.2rem;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: #343d33;
+      }
+      &__first {
+        grid-row: 1 / 4;
+        h3 {
+            margin-top: 2rem;
+        }
+        p {
+            max-width: 470px;
+        }
+      }
+      &:nth-child(n+2) {
+        display: flex;
+        column-gap: 2rem;
+      }
+    }
+  }
+}
+
+
