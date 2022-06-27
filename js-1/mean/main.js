@@ -1,13 +1,14 @@
-debugger;
 let rem = 0,
-  sum = 0;
+  sum = 0,
+  count = 0;
 
 function mean(num) {
-  while (num > 0) {
-    rem = num % 10; //vor vercni verjin tiv@
-    sum = sum + rem; //gumari sum-in
-    num = num / 10; //hani ayd verjin tiv@
+  while (num != 0) {
+    rem = num % 10;
+    sum = sum + rem;
+    num = (num - rem) / 10;
+    ++count;
   }
+  console.log(sum / count);
 }
-
-console.log(mean(561));
+mean(4565);
