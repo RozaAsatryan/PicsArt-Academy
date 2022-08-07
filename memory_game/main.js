@@ -20,6 +20,7 @@ startButton.addEventListener(
 function level() {
   if (count === 16) {
     alert(`Your Points: ${progress}`);
+    return;
   }
   document.getElementById("points").innerHTML = `Your Points: ${progress}`;
 
