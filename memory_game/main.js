@@ -6,6 +6,7 @@ const audio = new Audio("./wrong.mp3");
 
 let arr;
 let count = 1;
+let maxLength = 6;
 let progress = 0;
 
 startButton.addEventListener(
@@ -17,6 +18,9 @@ startButton.addEventListener(
 );
 
 function level() {
+  if (count === 16) {
+    alert(`Your Points: ${progress}`);
+  }
   document.getElementById("points").innerHTML = `Your Points: ${progress}`;
 
   for (let i = 0; i < cells.length; i++) {
@@ -25,9 +29,10 @@ function level() {
       cells[i].classList.remove("wrong");
     }, 1000);
   }
+
   arr = new Set();
 
-  for (let i = 0; arr.size < count; i++) {
+  for (let i = 0; arr.size < count && arr.size < maxLength; i++) {
     let i = Math.trunc(Math.random() * 12);
     arr.add(i);
   }
@@ -45,7 +50,7 @@ function level() {
     for (let i = 0; i < arr.length; i++) {
       let u = await colorsNum(arr[i]);
       console.log(u);
-      cells[u].style.backgroundColor = "rgb(181 236 252)";
+      cells[u].style.backgroundColor = "rgb(9, 44, 54)";
       setTimeout(() => {
         cells[u].style.backgroundColor = "azure";
       }, 500);
@@ -66,6 +71,10 @@ async function check(num) {
         if (getNum.length === arr.length) {
           if (count < 7) {
             count++;
+            progress++;
+            getNum = [];
+            level();
+          } else {
             progress++;
             getNum = [];
             level();
