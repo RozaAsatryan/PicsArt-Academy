@@ -88,6 +88,9 @@ async function check(num) {
       count++;
       getNum = [];
       level();
+      setTimeout(() => {
+        alert("Wrong");
+      }, 500);
     }
   }
 }
