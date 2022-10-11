@@ -62,7 +62,7 @@ function level() {
 }
 
 let getNum = [];
-async function check(num) {
+function check(num) {
   getNum.push(num);
   console.log(getNum);
   for (let i = 0; i < getNum.length; i++) {
@@ -87,10 +87,10 @@ async function check(num) {
       audio.play();
       count++;
       getNum = [];
-      level();
       setTimeout(() => {
         alert("Wrong");
       }, 500);
+      level();
     }
   }
 }
